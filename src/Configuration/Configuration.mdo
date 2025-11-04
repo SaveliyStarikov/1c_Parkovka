@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="801f5fad-0019-40c5-b19f-0453dc3084dd">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7406ef01-5b04-45a4-9f5f-08a32cbee618"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2a2c3c78-adb5-47f9-88ea-afe002acaa19"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6b959bb4-0496-4810-81a9-2b6898973814"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7d5eb98a-279e-4705-9e26-2f64d0b72edd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e376cc8c-187c-4cf9-81a3-874ef5d41a73"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4dd3a9e1-4591-47ef-bdfa-55b27bc01f54"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c501c455-9810-493e-9c5c-35ad4ccc4657"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>0.0.0.3</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="5fba9b5c-f5d0-4848-923e-55329deeed10">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВъездВыезд</subsystems>
+  <subsystems>Subsystem.Оплата</subsystems>
+  <subsystems>Subsystem.ПарковочныеМеста</subsystems>
+  <catalogs>Catalog.ВидыУслуг</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ДрайвераУстройств</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.МаркаАвтомобиля</catalogs>
+  <catalogs>Catalog.Места</catalogs>
+  <catalogs>Catalog.МодельАвтомобиля</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Огранизация</catalogs>
+  <catalogs>Catalog.Площадка</catalogs>
+  <catalogs>Catalog.Ряда</catalogs>
+  <catalogs>Catalog.Территория</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Устройства</catalogs>
+  <documents>Document.БронированиеМеста</documents>
+  <documents>Document.ВъездНаПарковку</documents>
+  <documents>Document.ВыездСПарковки</documents>
+  <documents>Document.Договор</documents>
+  <documents>Document.ОплатаМеста</documents>
+  <enums>Enum.СостояниеМеста</enums>
+  <enums>Enum.ТипЗоны</enums>
+  <enums>Enum.ТипКонтрагента</enums>
+  <enums>Enum.ТипПлощадки</enums>
+  <enums>Enum.ТипТранспортногоСредства</enums>
+  <enums>Enum.ТипУстройства</enums>
+  <reports>Report.СвободныеМеста</reports>
+  <dataProcessors>DataProcessor.МониторингПарковки</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ЗанятостьМест</accumulationRegisters>
+</mdclass:Configuration>

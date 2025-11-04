@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcecf77-0f1c-4645-b8de-16138e1589b2">
+  <producedTypes>
+    <objectType typeId="9c628f0f-b52e-43ea-b46f-845100fd8c68" valueTypeId="57332010-1fea-444c-9ad9-3c4014ec5705"/>
+    <refType typeId="81c567db-75c8-4eaa-a3e6-7412749a749e" valueTypeId="5d4fc5f9-9605-4663-9547-a6f8a894b257"/>
+    <selectionType typeId="d4106457-5247-46cf-bea8-da99034c0290" valueTypeId="02593622-af25-40d6-b154-acdc286bebcb"/>
+    <listType typeId="afb327c8-fb79-41dd-ac06-b59cae54d2d1" valueTypeId="79a8224a-e4f7-4491-b21e-f3108c4e0b21"/>
+    <managerType typeId="f7641aac-664c-44df-9493-99448b6ed872" valueTypeId="131173aa-a220-42ce-b22c-462458980094"/>
+  </producedTypes>
+  <name>Места</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Места.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Места.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Ряда</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ba58496b-fc3e-4a1c-a7cb-bda3920af111">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Площадка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a35558dc-9e47-416f-a563-2d14e02fc5cd">
+    <name>ТипМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип места</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

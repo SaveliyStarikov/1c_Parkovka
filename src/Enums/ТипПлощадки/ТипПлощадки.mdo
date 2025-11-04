@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bf102e7-9cfc-4f82-9015-60d7f068377d">
+  <producedTypes>
+    <refType typeId="40d7c30e-197c-4530-aa1b-394ea99cde6f" valueTypeId="26f3df29-9ae4-4229-95cb-3d2ae95e6af5"/>
+    <listType typeId="517ad3b4-8364-4a54-9419-13d7677305c0" valueTypeId="e6a0f2f1-4036-433c-b37a-0978b2b7de56"/>
+    <managerType typeId="0df29c5c-ced7-4bc0-943d-71cb9a9c7496" valueTypeId="c90d1663-7d52-4054-92db-6b942bbc4861"/>
+  </producedTypes>
+  <name>ТипПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип площадки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="33760061-7929-4385-838c-92bb0739e002">
+    <name>Открытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a27ce3c-1650-435b-ac81-a51b8b8939e5">
+    <name>Закрытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

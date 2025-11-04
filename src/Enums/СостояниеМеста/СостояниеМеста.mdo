@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a86d687d-64d6-4f4c-b277-04503b0918ee">
+  <producedTypes>
+    <refType typeId="605063b8-b236-457b-a5d6-6819c43a4ebe" valueTypeId="f04829ab-a25a-46d8-a842-f68c7a1f1910"/>
+    <listType typeId="0e3d195c-0dc7-474b-b050-020a3693364e" valueTypeId="c514fb13-16d0-4ef9-8121-1ea0ef371ee3"/>
+    <managerType typeId="6c68c074-bd37-4326-b579-11069f840983" valueTypeId="9ea3e30d-daba-411b-bb72-766e9a89ae11"/>
+  </producedTypes>
+  <name>СостояниеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние места</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="81b97195-7c09-4fb1-ab5d-93ff4d5fdd76">
+    <name>Свободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0762214d-5323-4ce1-a77c-7b1768094ae5">
+    <name>Занято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fffe59a-60a4-431c-af5d-1f34d171f918">
+    <name>Забронировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08e6f3cc-e051-4f06-b751-471680a9b258">
+    <name>Закреплено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закреплено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9059187e-50fd-4bc0-b2ac-44c371448933">
+  <producedTypes>
+    <objectType typeId="c056d196-4bce-49d5-a054-adf2ad90d3fd" valueTypeId="780712d8-4612-484b-ac4f-b513abe0f466"/>
+    <refType typeId="0b20ff8d-ffca-45aa-a936-69289bbbcc68" valueTypeId="3e972b5c-21a2-4ca3-831c-917e976e99cd"/>
+    <selectionType typeId="1ea1f5fb-c753-4369-aa34-34d1bdb2e1ec" valueTypeId="2abec6ec-ec80-41d6-bb7e-d29dbbe5e455"/>
+    <listType typeId="cf66d832-573b-4535-8c4e-37f0cdee525e" valueTypeId="3d1cce35-0c6d-444c-bc5a-23cce826f3e1"/>
+    <managerType typeId="f7fc281c-9b5f-4a17-b7cf-be32cd4f9939" valueTypeId="289554b6-6a57-4ba1-a158-3f1f8b56c33e"/>
+  </producedTypes>
+  <name>ДрайвераУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвера устройств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДрайвераУстройств.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДрайвераУстройств.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Устройства</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9e3f4aca-7c31-43bd-aed9-b2c91f735fc5">
+    <name>ТипУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип устройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25ba64ed-120c-4876-a1c4-9ac89612c2bd">
+    <name>ПараметрыПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="05b33807-6abc-44f4-984c-f132cf76e7e1">
+    <producedTypes>
+      <objectType typeId="34c15b9d-6486-4591-a49f-dcd81a52b83f" valueTypeId="992a813b-0c64-44c8-8151-51817ac32666"/>
+      <rowType typeId="8005d3c9-b3b4-420d-a720-f09a7ec4e5b6" valueTypeId="a2b002e6-f909-4856-9940-4cf42bd2032a"/>
+    </producedTypes>
+    <name>ТаблицаКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица команды</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="78770588-3a57-4d87-ac49-669189bc132a">
+      <name>Открыть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Открыть</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb07897b-f4f2-4f4a-9690-0808b001ee49">
+      <name>Закрыть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3486be8-abb5-4794-8433-a8fa1941701b">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bb997ad-85d1-4101-a144-a7afdf91d1dd">
+      <name>ПолучитьВидео</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить видео</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

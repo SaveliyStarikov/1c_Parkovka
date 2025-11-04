@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b63199a-07ae-4d34-a532-6f76913e6b87">
+  <producedTypes>
+    <refType typeId="b0ff6d0e-6537-4978-aad3-00d967e7f460" valueTypeId="fa64a7cd-ca0d-4c24-bc25-029279f184b1"/>
+    <listType typeId="039e9891-fa9d-403b-b89f-ca0277679695" valueTypeId="5af25930-5b5b-4e7c-9075-99b95f441b97"/>
+    <managerType typeId="2b3170e7-5ed7-4967-98d6-3f160c7e185d" valueTypeId="00eafd7f-3e43-4467-a85a-b6c7286abb4b"/>
+  </producedTypes>
+  <name>ТипЗоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип зоны</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96c91ad7-2892-406f-bb61-13af9d11d12b">
+    <name>Въезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Въезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6923e4fc-f377-42e6-a8fb-8d917cfd6cb3">
+    <name>Выезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75e54466-6031-41af-a000-53d29e018fc8">
+    <name>Смешанный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смешанный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
