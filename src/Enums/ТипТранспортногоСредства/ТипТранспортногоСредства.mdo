@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f26c1161-9eae-49d0-a40e-cfc08a32df1f">
+  <producedTypes>
+    <refType typeId="96cca74f-be36-4ca7-ac8f-a85169c6c5eb" valueTypeId="c1b9b3ea-0588-475a-9240-9bbe5bb2eaf4"/>
+    <listType typeId="ececfb43-86c7-48f1-8053-be7ac181d482" valueTypeId="0ed0767a-c54e-46b1-9e6d-319e40e2a2d7"/>
+    <managerType typeId="d25754e0-a1b0-427e-8185-9b9eb8907cae" valueTypeId="42e434d7-d281-40e3-a806-dbbe3a517857"/>
+  </producedTypes>
+  <name>ТипТранспортногоСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип транспортного средства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5449565b-8c65-433a-9079-a2dd45d2aca3">
+    <name>Легковые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecb04308-527a-49ac-b9df-6663dbcb452a">
+    <name>Грузовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48452577-23da-4dd5-b81f-ed0bf2d172fd">
+    <name>МотоТехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мото техника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc51293d-e483-45ae-9c4b-ec158bf86d39">
+    <name>Спецтехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецтехника</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9997890-0f04-40d7-9186-6f7368730d3a">
+  <producedTypes>
+    <refType typeId="907c0ef1-c454-437a-97f3-718e7a86b665" valueTypeId="1416513f-2929-4b28-8a86-4dd45b6b431f"/>
+    <listType typeId="cac97385-7a5f-4056-b37a-af8bdc8be095" valueTypeId="0b15c2d5-b19d-4c04-9fe5-eda9cf92f458"/>
+    <managerType typeId="d6fcd118-ecf1-4b86-b01f-f7b6bbd44241" valueTypeId="73216452-587a-4afb-8d7b-62e2fcb230f5"/>
+  </producedTypes>
+  <name>ТипУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип устройства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78db6cfa-15d0-43b6-bcf3-d7342ca7d6b5">
+    <name>Камера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Камера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e6d8373-6900-4f3e-87ba-c8782c695f33">
+    <name>Шлагбаум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шлагбаум</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebf860f8-20bc-4735-bd26-8bc844c1562a">
+    <name>Теримнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теримнал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78062758-ed3b-4684-9f25-82be9c830e78">
+    <name>СчитывательКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считыватель карт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4f27cd8-75a6-4bba-8f6e-aea7234d5b7c">
+    <name>ЗаряднаяСтанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарядная станция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

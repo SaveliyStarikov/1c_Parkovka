@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcfc0cec-65a1-4283-ab3a-ed9c864345e2">
+  <producedTypes>
+    <objectType typeId="5345318a-db7f-4ac3-b85d-a204b1719260" valueTypeId="86def8d9-265a-4181-9204-15537f5d7e0c"/>
+    <managerType typeId="11a8bb24-f424-4c8a-b238-574d2265bcb6" valueTypeId="0f4d3f54-e4c8-47d4-b978-4015e3128d1d"/>
+  </producedTypes>
+  <name>МониторингПарковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг парковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторингПарковки.Form.Форма</defaultForm>
+  <forms uuid="1f2f483a-0288-45c0-9cef-763091e497ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e766eaf8-41a8-4c8d-8fb5-9ab8eb91d21f">
+    <name>ФормаЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ячейки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd9b993-9717-4349-8642-218afdc20a4c">
+  <producedTypes>
+    <objectType typeId="86ba4fc1-967c-47b8-9450-c1b12709142d" valueTypeId="70ad08aa-c508-4a5e-a58a-f0e3e558fad7"/>
+    <refType typeId="a583d5d7-e429-4bf6-a9be-05c2a331ec2a" valueTypeId="7df58dae-7eef-44b2-a396-19f890d99ce8"/>
+    <selectionType typeId="63aa9626-bb73-49fa-9efa-52927ff173e2" valueTypeId="0af52e8f-bd89-412f-9c3c-ef0d0a8d0ae3"/>
+    <listType typeId="e2967f03-0607-4eec-a9d3-73e28cd18da0" valueTypeId="f4abc822-18e2-47ae-ad80-e4846dd52393"/>
+    <managerType typeId="d400fb2a-c851-4f1a-8474-6c21ab34a77a" valueTypeId="d650cc25-bd43-440a-be0f-563190001c2b"/>
+  </producedTypes>
+  <name>Площадка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Площадка.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Площадка.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Территория</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="691a311c-a2fc-4d69-8de2-d51e54b72771">
+    <name>ЭтажЗона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж/Зона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e8c190b-9813-457e-a86e-70cfbf2e7728">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffbaa676-cedb-4a01-a39a-d72193f13e18">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

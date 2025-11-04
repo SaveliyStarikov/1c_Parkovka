@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760fa894-6c8f-4cf0-8195-6e7b7d56b8eb">
+  <producedTypes>
+    <objectType typeId="c4e5bc6c-3d12-43d8-94c3-60944b00dbbe" valueTypeId="67797c43-56d0-475a-9a89-9c13acfbcc38"/>
+    <refType typeId="a1f5d1ac-cfc6-4ac7-b589-2e233bf83995" valueTypeId="72ae46ec-6d2e-48da-83f3-173d4343e0c1"/>
+    <selectionType typeId="1fae0524-9ba7-43e6-8efa-83b64aafd1d0" valueTypeId="2b8df00b-90cd-4843-aaf2-2d10bb45ab16"/>
+    <listType typeId="70c02e92-7388-4ae6-946a-f63408eedaa8" valueTypeId="2fb92abd-c3e5-4cf3-936e-9f6df073f875"/>
+    <managerType typeId="c444d0d1-a8fa-4c20-8539-3e319e850250" valueTypeId="19885505-be67-4d41-8fbc-31547ec1cfe6"/>
+  </producedTypes>
+  <name>Ряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ряда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ряда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ряда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Площадка</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2c628410-1e0e-497e-9433-eda1c40f48ac">
+    <name>Территория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Территория</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75cb0ac8-d37e-4be2-8668-356aa24cbd84">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипЗоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27e403fb-2255-4b35-aa5d-96cca296c94d">
+    <name>ПривязанныеУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Привязанные устройства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Устройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

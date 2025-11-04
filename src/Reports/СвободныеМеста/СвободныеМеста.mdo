@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fc2f07b-e3ee-4351-91a1-874bf5140a6f">
+  <producedTypes>
+    <objectType typeId="a96c2633-caad-4e63-b338-da3f5358b328" valueTypeId="2fd901aa-5bb7-4f4e-b89a-be9e57297d58"/>
+    <managerType typeId="390f3b04-669f-45e9-8135-9bec6ef7085b" valueTypeId="ade2a5f3-7cf5-4123-85ea-44daafbea36f"/>
+  </producedTypes>
+  <name>СвободныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свободные места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СвободныеМеста.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b672537d-9433-47a3-bcba-c183b763012f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
