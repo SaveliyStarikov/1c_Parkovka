@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="801f5fad-0019-40c5-b19f-0453dc3084dd">
-  <name>Конфигурация</name>
+  <name>Парковка</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7406ef01-5b04-45a4-9f5f-08a32cbee618"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2a2c3c78-adb5-47f9-88ea-afe002acaa19"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6b959bb4-0496-4810-81a9-2b6898973814"/>
