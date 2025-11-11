@@ -28,7 +28,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="5fba9b5c-f5d0-4848-923e-55329deeed10">
     <name>Русский</name>
     <synonym>
