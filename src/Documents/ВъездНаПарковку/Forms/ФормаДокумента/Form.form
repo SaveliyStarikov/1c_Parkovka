@@ -102,6 +102,152 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Площадка</name>
+      <id>39</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Площадка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПлощадкаРасширеннаяПодсказка</name>
+        <id>41</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПлощадкаКонтекстноеМеню</name>
+        <id>40</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>ПлощадкаПанельДействийВыделенныхСтрок</name>
+        <id>42</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Ряд</name>
+      <id>43</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Ряд</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РядРасширеннаяПодсказка</name>
+        <id>45</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РядКонтекстноеМеню</name>
+        <id>44</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>РядПанельДействийВыделенныхСтрок</name>
+        <id>46</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Место</name>
+      <id>23</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Место</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>МестоРасширеннаяПодсказка</name>
+        <id>25</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>МестоКонтекстноеМеню</name>
+        <id>24</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>МестоПанельДействийВыделенныхСтрок</name>
+        <id>26</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Авто</name>
       <id>11</id>
       <visible>true</visible>
@@ -151,55 +297,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Территория</name>
-      <id>15</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Территория</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ТерриторияРасширеннаяПодсказка</name>
-        <id>17</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ТерриторияКонтекстноеМеню</name>
-        <id>16</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>ТерриторияПанельДействийВыделенныхСтрок</name>
-        <id>18</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>НачальныйПериод</name>
       <id>19</id>
       <visible>true</visible>
@@ -228,55 +325,6 @@
       <selectedItemsActionsPanel>
         <name>НачальныйПериодПанельДействийВыделенныхСтрок</name>
         <id>22</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>Место</name>
-      <id>23</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Место</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>МестоРасширеннаяПодсказка</name>
-        <id>25</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>МестоКонтекстноеМеню</name>
-        <id>24</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>МестоПанельДействийВыделенныхСтрок</name>
-        <id>26</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>
@@ -424,55 +472,6 @@
       <selectedItemsActionsPanel>
         <name>КонечныйПериодПанельДействийВыделенныхСтрок</name>
         <id>38</id>
-        <fillStdCommands>true</fillStdCommands>
-        <horizontalAlign>Left</horizontalAlign>
-        <appearanceMode>CommandBar</appearanceMode>
-      </selectedItemsActionsPanel>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ПарковочнаяПлощадка</name>
-      <id>39</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПарковочнаяПлощадка</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ПарковочнаяПлощадкаРасширеннаяПодсказка</name>
-        <id>41</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ПарковочнаяПлощадкаКонтекстноеМеню</name>
-        <id>40</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <selectedItemsActionsPanel>
-        <name>ПарковочнаяПлощадкаПанельДействийВыделенныхСтрок</name>
-        <id>42</id>
         <fillStdCommands>true</fillStdCommands>
         <horizontalAlign>Left</horizontalAlign>
         <appearanceMode>CommandBar</appearanceMode>

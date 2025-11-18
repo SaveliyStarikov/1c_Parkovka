@@ -42,21 +42,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b63c1342-e9bf-4ab3-b11f-f876bf3fa043">
-    <name>Территория</name>
-    <synonym>
-      <key>ru</key>
-      <value>Территория</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Территория</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="a32225f7-c5bc-470b-a32e-c47903ec78c0">
     <name>НачальныйПериод</name>
     <synonym>
@@ -150,13 +135,28 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="af7f2f17-146e-436b-9af3-cc812e7e462e">
-    <name>ПарковочнаяПлощадка</name>
+    <name>Площадка</name>
     <synonym>
       <key>ru</key>
-      <value>Парковочная площадка</value>
+      <value>Площадка</value>
     </synonym>
     <type>
       <types>CatalogRef.Площадка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0cd9df3b-9d11-4665-a4bb-a62a7e4ed364">
+    <name>Ряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ряд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ряда</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

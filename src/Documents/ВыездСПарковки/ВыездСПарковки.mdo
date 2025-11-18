@@ -27,21 +27,6 @@
   <registerRecords>AccumulationRegister.ЗанятостьМест</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="121b5e4e-7c11-45fb-b88d-bfb9a0ec4713">
-    <name>Территория</name>
-    <synonym>
-      <key>ru</key>
-      <value>Территория</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Территория</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="96bc4f20-7e7b-46bd-be96-142703ae1c9d">
     <name>Площадка</name>
     <synonym>
@@ -159,6 +144,21 @@
     <type>
       <types>Date</types>
       <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30c29127-bfd8-4d62-a7d2-5c6c03c2d003">
+    <name>Ряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ряд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ряда</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
