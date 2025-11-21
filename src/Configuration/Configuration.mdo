@@ -37,9 +37,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ВъездВыезд</subsystems>
-  <subsystems>Subsystem.Оплата</subsystems>
-  <subsystems>Subsystem.ПарковочныеМеста</subsystems>
+  <subsystems>Subsystem.ОборудованиеИУстройства</subsystems>
+  <subsystems>Subsystem.ОтчетыИМониторинг</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.УправлениеПарковкой</subsystems>
   <catalogs>Catalog.ВидыУслуг</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ДрайвераУстройств</catalogs>
