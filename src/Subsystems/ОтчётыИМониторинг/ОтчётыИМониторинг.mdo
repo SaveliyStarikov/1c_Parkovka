@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad78e9e2-4739-413c-b8a7-b32f983de965">
+  <name>ОтчётыИМониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёты и мониторинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.СвободныеМеста</content>
+  <content>DataProcessor.МониторингПарковки</content>
+</mdclass:Subsystem>
