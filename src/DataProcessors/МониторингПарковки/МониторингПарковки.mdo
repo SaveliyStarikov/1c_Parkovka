@@ -20,13 +20,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="e766eaf8-41a8-4c8d-8fb5-9ab8eb91d21f">
-    <name>ФормаЯчейки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма ячейки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:DataProcessor>
