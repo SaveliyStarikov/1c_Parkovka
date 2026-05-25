@@ -158,7 +158,7 @@
       <value>Ряд</value>
     </synonym>
     <type>
-      <types>CatalogRef.Ряда</types>
+      <types>CatalogRef.Ряды</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

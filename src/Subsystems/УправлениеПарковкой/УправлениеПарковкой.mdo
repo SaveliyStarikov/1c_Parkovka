@@ -9,7 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Территория</content>
   <content>Catalog.Площадка</content>
-  <content>Catalog.Ряда</content>
+  <content>Catalog.Ряды</content>
   <content>Catalog.Места</content>
   <content>Catalog.ТранспортныеСредства</content>
   <content>Document.ВъездНаПарковку</content>

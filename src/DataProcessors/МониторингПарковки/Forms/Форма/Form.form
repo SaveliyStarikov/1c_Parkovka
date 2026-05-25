@@ -104,13 +104,6 @@
       <id>253</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <selectedItemsActionsPanel>
-      <name>ТаблицаПанельДействийВыделенныхСтрок</name>
-      <id>265</id>
-      <fillStdCommands>true</fillStdCommands>
-      <horizontalAlign>Left</horizontalAlign>
-      <appearanceMode>CommandBar</appearanceMode>
-    </selectedItemsActionsPanel>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -244,7 +237,7 @@
       </title>
       <id>2</id>
       <valueType>
-        <types>CatalogRef.Ряда</types>
+        <types>CatalogRef.Ряды</types>
       </valueType>
       <view>
         <common>true</common>
