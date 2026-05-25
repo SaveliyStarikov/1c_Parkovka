@@ -16,6 +16,11 @@
   <inputByString>Document.ВъездНаПарковку.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <numberType>String</numberType>
@@ -156,7 +161,7 @@
       <value>Ряд</value>
     </synonym>
     <type>
-      <types>CatalogRef.Ряда</types>
+      <types>CatalogRef.Ряды</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

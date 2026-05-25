@@ -7,14 +7,14 @@
     <listType typeId="70c02e92-7388-4ae6-946a-f63408eedaa8" valueTypeId="2fb92abd-c3e5-4cf3-936e-9f6df073f875"/>
     <managerType typeId="c444d0d1-a8fa-4c20-8539-3e319e850250" valueTypeId="19885505-be67-4d41-8fbc-31547ec1cfe6"/>
   </producedTypes>
-  <name>Ряда</name>
+  <name>Ряды</name>
   <synonym>
     <key>ru</key>
-    <value>Ряда</value>
+    <value>Ряды</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Ряда.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Ряда.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ряды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ряды.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
