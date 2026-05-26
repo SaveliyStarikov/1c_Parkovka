@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Места.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="ba58496b-fc3e-4a1c-a7cb-bda3920af111">
     <name>Площадка</name>
     <synonym>
@@ -38,7 +39,7 @@
       <value>Площадка</value>
     </synonym>
     <type>
-      <types>CatalogRef.Площадка</types>
+      <types>CatalogRef.Площадки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,10 +61,17 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="7b685038-6201-45d9-b6fd-1793e5874723">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

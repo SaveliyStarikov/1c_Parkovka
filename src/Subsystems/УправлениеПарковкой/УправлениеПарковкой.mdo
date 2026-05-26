@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Территория</content>
-  <content>Catalog.Площадка</content>
+  <content>Catalog.Территории</content>
+  <content>Catalog.Площадки</content>
   <content>Catalog.Ряды</content>
   <content>Catalog.Места</content>
   <content>Catalog.ТранспортныеСредства</content>
@@ -16,4 +16,5 @@
   <content>Document.ВыездСПарковки</content>
   <content>Document.БронированиеМеста</content>
   <content>Document.ОплатаМеста</content>
+  <content>DataProcessor.АвтоСозданиеПоРазмерамПарковки</content>
 </mdclass:Subsystem>

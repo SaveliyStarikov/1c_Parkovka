@@ -21,7 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Площадка</owners>
+  <owners>Catalog.Площадки</owners>
   <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Ряды.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="2c628410-1e0e-497e-9433-eda1c40f48ac">
     <name>Территория</name>
     <synonym>
@@ -38,7 +39,7 @@
       <value>Территория</value>
     </synonym>
     <type>
-      <types>CatalogRef.Территория</types>
+      <types>CatalogRef.Территории</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -53,7 +54,7 @@
       <value>Тип</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипЗоны</types>
+      <types>EnumRef.ТипыЗон</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -76,4 +77,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="57109300-aba0-452b-b2f7-060408118f6d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
