@@ -106,6 +106,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Устройства.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="2c044f32-7e18-4edf-bb98-688bbf18a0a6">
     <name>Тип</name>
     <synonym>
@@ -113,7 +114,7 @@
       <value>Тип</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипУстройства</types>
+      <types>EnumRef.ТипыУстройств</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -121,4 +122,70 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c3f5ee34-4c2c-4cb5-9d11-4dc26f6ff4f9">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="426d48c0-d788-4b42-b431-984fad2af1af">
+    <producedTypes>
+      <objectType typeId="9c44b424-0603-4c90-bddf-114dbd58f9cf" valueTypeId="6cbc8b8c-9950-4843-afaa-8ded39f2199b"/>
+      <rowType typeId="53b1a2bb-d1a0-40c1-a5ea-a805999a262f" valueTypeId="f1f4f768-40dc-476c-b598-b818e3e4858d"/>
+    </producedTypes>
+    <name>Команды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команды</value>
+    </synonym>
+    <attributes uuid="d60bdd4e-0723-4561-935e-d0192cb84d0a">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>EnumRef.КомандыУстройств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a58466b3-c59e-4430-8802-c0a2417fa804">
+      <name>Отключено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="9e6479a0-501a-4cda-a2f4-65980e42ca61">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <useInInterfaceCompatibilityMode>Version85</useInInterfaceCompatibilityMode>
+  </forms>
 </mdclass:Catalog>

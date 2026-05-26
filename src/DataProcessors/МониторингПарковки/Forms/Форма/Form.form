@@ -129,6 +129,143 @@
     <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОбщаяя</name>
+    <id>314</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаМониторПарковки</name>
+      <id>312</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа монитор парковки</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаМониторПарковкиРасширеннаяПодсказка</name>
+        <id>313</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Auto</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаВидео</name>
+      <id>316</id>
+      <items xsi:type="form:FormField">
+        <name>ВидеоВывод</name>
+        <id>318</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВидеоВывод</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ВидеоВыводРасширеннаяПодсказка</name>
+          <id>320</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ВидеоВыводКонтекстноеМеню</name>
+          <id>319</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>HTMLDocumentField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:HtmlFieldExtInfo">
+          <width>50</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа видео</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаВидеоРасширеннаяПодсказка</name>
+        <id>317</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Auto</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа общаяя</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаОбщаяяРасширеннаяПодсказка</name>
+      <id>315</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Auto</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -220,7 +357,7 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.Площадка</types>
+        <types>CatalogRef.Площадки</types>
       </valueType>
       <view>
         <common>true</common>
@@ -297,6 +434,24 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ВидеоВывод</name>
+    <title>
+      <key>ru</key>
+      <value>Видео вывод</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ОбновитьТаблицуМест</name>

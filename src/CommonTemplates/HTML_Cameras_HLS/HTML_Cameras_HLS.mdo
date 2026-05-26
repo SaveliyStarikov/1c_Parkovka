@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8711d464-cbef-4980-b234-f8109c4e061d">
+  <name>HTML_Cameras_HLS</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTML cameras HLS</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi-Stream Viewer</title>
+    <style>
+        html, body, .container {
+            height: 100%;
+            margin: 0;
+        }
+        #dynamic-image {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        select, button {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .status.connected {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status.disconnected {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="controls">
+        <select id="stream-select">
+            <option value="">Выберите поток</option>
+        </select>
+        <button id="connect-btn">Подключиться</button>
+        <button id="disconnect-btn" disabled>Отключиться</button>
+    </div>
+    <div id="status" class="status" style="display: none;"></div>
+    <img id="dynamic-image" src="" alt="Stream preview" style="display: none;">
+</div>
+<script>
+    // JSON с данными потоков
+    const streams = &source;
+
+    // Элементы DOM
+    const streamSelect = document.getElementById('stream-select');
+    const connectBtn = document.getElementById('connect-btn');
+    const disconnectBtn = document.getElementById('disconnect-btn');
+    const statusDiv = document.getElementById('status');
+    const imgElement = document.getElementById('dynamic-image');
+
+    // Переменные для управления потоком
+    let currentXHR = null;
+    let currentStream = null;
+    let isConnected = false;
+
+    // Заполняем выпадающий список
+    function populateStreamList() {
+        streams.forEach(stream => {
+            const option = document.createElement('option');
+            option.value = stream.id;
+            option.textContent = stream.name;
+            streamSelect.appendChild(option);
+        });
+    }
+	
+	 // Подключение к потоку
+    function connectToStream(streamId) {
+        if (isConnected) {
+            disconnectFromStream();
+        }
+
+        const stream = streams.find(s => s.id === parseInt(streamId));
+        if (!stream) {
+            showStatus('Поток не найден', false);
+            return;
+        }
+
+        currentStream = stream;
+        startStream(stream.url);
+        showStatus(`Подключено к: ${stream.name}`, true);
+        connectBtn.disabled = true;
+        disconnectBtn.disabled = false;
+        imgElement.style.display = 'block';
+        isConnected = true;
+    }
+
+    // Отключение от потока
+    function disconnectFromStream() {
+        if (currentXHR) {
+            currentXHR.abort();
+            currentXHR = null;
+        }
+
+        currentStream = null;
+        imgElement.src = '';
+        imgElement.style.display = 'none';
+        showStatus('Отключено', false);
+        connectBtn.disabled = false;
+        disconnectBtn.disabled = true;
+        isConnected = false;
+    }
+
+    // Запуск MJPEG потока
+    function startStream(url) {
+        const boundary = '--myboundary';
+        // const boundary = '--frame';
+        const headersEnd = '\r\n\r\n';
+
+        let buffer = new Uint8Array();
+        let processedLength = 0;
+
+        const xhr = new XMLHttpRequest();
+        currentXHR = xhr;
+
+        console.log(url);
+        xhr.open('GET', url, true);
+        xhr.responseType = 'text';
+        xhr.overrideMimeType('text/plain; charset=x-user-defined');
+
+        xhr.onprogress = function() {
+            if (xhr.readyState === 3 || xhr.readyState === 4) {
+                const text = xhr.responseText;
+                console.log(text);
+                if (!text || text.length <= processedLength) return;
+
+                const newText = text.substring(processedLength);
+                processedLength = text.length;
+
+                const newData = new Uint8Array(newText.length);
+                for (let i = 0; i < newText.length; i++) {
+                    newData[i] = newText.charCodeAt(i) & 0xff;
+                }
+
+                const newBuffer = new Uint8Array(buffer.length + newData.length);
+                newBuffer.set(buffer);
+                newBuffer.set(newData, buffer.length);
+                buffer = newBuffer;
+
+                processBuffer();
+            }
+        };
+
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                console.log('Загрузка завершена');
+            }
+        };
+
+        xhr.onerror = function() {
+            console.error('Ошибка сети или доступа');
+            showStatus('Ошибка подключения', false);
+            disconnectFromStream();
+        };
+
+        xhr.onabort = function() {
+            console.log('Запрос прерван');
+        };
+
+        xhr.send();
+
+        function processBuffer() {
+            while (true) {
+                const boundaryIndex = findIndex(buffer, boundary);
+                if (boundaryIndex === -1) break;
+
+                const frameStart = boundaryIndex + boundary.length;
+                const headersEndIndex = findIndex(buffer, headersEnd, frameStart);
+                if (headersEndIndex === -1) break;
+
+                const jpegStart = headersEndIndex + headersEnd.length;
+                const jpegEnd = findIndex(buffer, boundary, jpegStart);
+                if (jpegEnd === -1) break;
+
+                const jpegData = buffer.slice(jpegStart, jpegEnd);
+                const base64 = bufferToBase64(jpegData);
+                imgElement.src = "data:image/jpeg;base64," + base64;
+
+                buffer = buffer.slice(jpegEnd);
+            }
+        }
+
+        function bufferToBase64(buf) {
+            const binary = Array.from(new Uint8Array(buf))
+                .map(byte => String.fromCharCode(byte))
+                .join('');
+            return btoa(binary);
+        }
+
+        function findIndex(buffer, pattern, start = 0) {
+            const patternBytes = new TextEncoder().encode(pattern);
+            for (let i = start; i <= buffer.length - patternBytes.length; i++) {
+                let match = true;
+                for (let j = 0; j < patternBytes.length; j++) {
+                    if (buffer[i + j] !== patternBytes[j]) {
+                        match = false;
+                        break;
+                    }
+                }
+                if (match) return i;
+            }
+            return -1;
+        }
+    }
+
+    // Показать статус
+    function showStatus(message, isSuccess) {
+        statusDiv.textContent = message;
+        statusDiv.className = `status ${isSuccess ? 'connected' : 'disconnected'}`;
+        statusDiv.style.display = 'block';
+    }
+
+    // Обработчики событий
+    connectBtn.addEventListener('click', () => {
+        const selectedStreamId = streamSelect.value;
+        if (selectedStreamId) {
+            connectToStream(selectedStreamId);
+        }
+    });
+
+    disconnectBtn.addEventListener('click', disconnectFromStream);
+
+    streamSelect.addEventListener('change', () => {
+    if (isConnected) {
+        const selectedStreamId = streamSelect.value;
+        const currentStreamId = currentStream ? currentStream.id.toString() : null;
+        if (selectedStreamId && selectedStreamId !== currentStreamId) {
+            connectToStream(selectedStreamId);
+        }
+    }
+});
+
+    // Автоматическое отключение при закрытии страницы
+    window.addEventListener('beforeunload', disconnectFromStream);
+   
+
+    // Инициализация
+    populateStreamList();
+</script>
+</body>
+</html>

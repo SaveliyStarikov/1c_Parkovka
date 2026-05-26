@@ -343,6 +343,7 @@
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
+  <commonTemplates>CommonTemplate.HTML_Cameras_HLS</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
@@ -411,6 +412,8 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверРФ</commonModules>
+  <commonModules>CommonModule.Устройства</commonModules>
+  <commonModules>CommonModule.УстройстваКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистема</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
@@ -527,15 +530,15 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.МаркаАвтомобиля</catalogs>
+  <catalogs>Catalog.МаркиТС</catalogs>
   <catalogs>Catalog.Места</catalogs>
-  <catalogs>Catalog.МодельАвтомобиля</catalogs>
+  <catalogs>Catalog.МоделиТС</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Огранизация</catalogs>
-  <catalogs>Catalog.Площадка</catalogs>
+  <catalogs>Catalog.Огранизации</catalogs>
+  <catalogs>Catalog.Площадки</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Ряды</catalogs>
-  <catalogs>Catalog.Территория</catalogs>
+  <catalogs>Catalog.Территории</catalogs>
   <catalogs>Catalog.ТранспортныеСредства</catalogs>
   <catalogs>Catalog.Устройства</catalogs>
   <documents>Document.БронированиеМеста</documents>
@@ -543,18 +546,19 @@
   <documents>Document.ВыездСПарковки</documents>
   <documents>Document.Договор</documents>
   <documents>Document.ОплатаМеста</documents>
+  <enums>Enum.КомандыУстройств</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
-  <enums>Enum.СостояниеМеста</enums>
+  <enums>Enum.СостоянияМест</enums>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
-  <enums>Enum.ТипЗоны</enums>
-  <enums>Enum.ТипКонтрагента</enums>
-  <enums>Enum.ТипПлощадки</enums>
-  <enums>Enum.ТипТранспортногоСредства</enums>
-  <enums>Enum.ТипУстройства</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
+  <enums>Enum.ТипыЗон</enums>
+  <enums>Enum.ТипыКонтрагентов</enums>
+  <enums>Enum.ТипыПлощадок</enums>
+  <enums>Enum.ТипыТС</enums>
+  <enums>Enum.ТипыУстройств</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
@@ -563,6 +567,7 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.СвободныеМеста</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
+  <dataProcessors>DataProcessor.АвтоСозданиеПоРазмерамПарковки</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.МониторингПарковки</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>

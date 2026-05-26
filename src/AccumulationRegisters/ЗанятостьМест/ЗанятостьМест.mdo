@@ -25,45 +25,56 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>1</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="efb7d2b8-b21c-47bd-b838-67fe466d1f93">
-    <name>ДатаВъезда</name>
+  <attributes uuid="57e511e3-fa86-49e9-ac40-f05267ba0dcd">
+    <name>Контрагент</name>
     <synonym>
       <key>ru</key>
-      <value>Дата въезда</value>
+      <value>Контрагент</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
+      <types>CatalogRef.Контрагенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="96482aef-a569-4c5c-a64a-5f6ae1e6c129">
-    <name>ДатаОкончания</name>
+  </attributes>
+  <attributes uuid="08b60c9c-6a1e-4c94-b5b8-e9016e7705a8">
+    <name>ТранспортноеСредство</name>
     <synonym>
       <key>ru</key>
-      <value>Дата окончания</value>
+      <value>Транспортное средство</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
+      <types>CatalogRef.ТранспортныеСредства</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </resources>
+  </attributes>
+  <dimensions uuid="a08614ff-7d56-4d61-948f-72d1468a45d9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="89d0af35-891f-41a7-8bd6-c2d365999659">
     <name>Территория</name>
     <synonym>
@@ -71,7 +82,7 @@
       <value>Территория</value>
     </synonym>
     <type>
-      <types>CatalogRef.Территория</types>
+      <types>CatalogRef.Территории</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -85,7 +96,21 @@
       <value>Площадка</value>
     </synonym>
     <type>
-      <types>CatalogRef.Площадка</types>
+      <types>CatalogRef.Площадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2f997dc9-112e-45ce-8e7c-bf350a475ea7">
+    <name>Ряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ряд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ряды</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -100,34 +125,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Места</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="6be7ff26-f090-4a6f-a986-f11d96f650be">
-    <name>Контрагент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контрагент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="3302aadb-6c24-4af5-9b17-4f0b6c03575e">
-    <name>ТранспортноеСредство</name>
-    <synonym>
-      <key>ru</key>
-      <value>Транспортное средство</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ТранспортныеСредства</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

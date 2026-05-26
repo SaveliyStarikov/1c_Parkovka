@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca7bdedb-c45c-4397-a248-8c7a30494ece">
+  <producedTypes>
+    <refType typeId="ccd85572-9975-4f78-9f6d-66ba310b3195" valueTypeId="c45ca281-7ede-427d-82a4-54d669fdbca5"/>
+    <listType typeId="c91da031-9d9d-4533-9b4f-ed660934e231" valueTypeId="2e889adf-09b4-40fa-8ce2-e6cc495d78d7"/>
+    <managerType typeId="a6eeffe5-feff-4ab1-8e4c-019a88f47dbf" valueTypeId="8d143efa-b379-4311-9314-fa93702aa4b9"/>
+  </producedTypes>
+  <name>КомандыУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды устройств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ce5085a-29ba-4f28-896d-c21e7a19e740">
+    <name>Открыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2c8acda-3ada-4719-a5d4-d09b22995bb9">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

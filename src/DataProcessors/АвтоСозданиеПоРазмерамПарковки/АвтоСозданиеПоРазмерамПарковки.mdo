@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55d3f138-bcb9-4d21-8dfc-7e28f38f494a">
+  <producedTypes>
+    <objectType typeId="f2c2ee4e-d8b1-4e4a-b776-305b120bf8ef" valueTypeId="47390e9e-ab79-4e2b-b6f9-fb7be826d0e0"/>
+    <managerType typeId="7fb91ca2-2eda-44a7-8c5d-f461d820e8f6" valueTypeId="bf64d1c9-6c26-4956-8b9e-63dc560d8f00"/>
+  </producedTypes>
+  <name>АвтоСозданиеПоРазмерамПарковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто создание по размерам парковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтоСозданиеПоРазмерамПарковки.Form.Форма</defaultForm>
+  <attributes uuid="f36e90ed-21cf-40bb-959f-9a6b7cc31369">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Площадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0e443d46-d37a-4142-a094-bfe0fa0535da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -8,10 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
-  <content>Catalog.Огранизация</content>
+  <content>Catalog.Огранизации</content>
   <content>Catalog.ВидыУслуг</content>
   <content>Catalog.ВидыЦен</content>
   <content>Catalog.Номенклатура</content>
-  <content>Catalog.МодельАвтомобиля</content>
-  <content>Catalog.МаркаАвтомобиля</content>
+  <content>Catalog.МоделиТС</content>
+  <content>Catalog.МаркиТС</content>
 </mdclass:Subsystem>
