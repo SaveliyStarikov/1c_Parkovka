@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ОборудованиеИУстройства</subsystems>
+  <subsystems>Subsystem.Оплата</subsystems>
   <subsystems>Subsystem.ОтчётыИМониторинг</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
@@ -458,6 +459,7 @@
   <definedTypes>DefinedType.Подразделение</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <commonCommands>CommonCommand.СведенияОПользователе</commonCommands>
@@ -540,12 +542,15 @@
   <catalogs>Catalog.Ряды</catalogs>
   <catalogs>Catalog.Территории</catalogs>
   <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
   <catalogs>Catalog.Устройства</catalogs>
   <documents>Document.БронированиеМеста</documents>
   <documents>Document.ВъездНаПарковку</documents>
   <documents>Document.ВыездСПарковки</documents>
   <documents>Document.Договор</documents>
-  <documents>Document.ОплатаМеста</documents>
+  <documents>Document.Оплата</documents>
+  <documents>Document.РеализацияТовараИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
   <enums>Enum.КомандыУстройств</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
@@ -596,5 +601,7 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаимоРасчётСКлиентами</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗанятостьМест</accumulationRegisters>
 </mdclass:Configuration>
