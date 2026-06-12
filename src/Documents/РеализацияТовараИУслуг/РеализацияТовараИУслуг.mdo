@@ -175,10 +175,10 @@
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
   <templates uuid="3f969404-2f40-4f83-8092-592cd7dab5e9">
-    <name>Макет</name>
+    <name>АктВыполненыхРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Макет</value>
+      <value>Акт выполненых работ</value>
     </synonym>
   </templates>
 </mdclass:Document>

@@ -103,11 +103,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="0dc3f320-8698-4ad7-8ce9-af687e7802f9">
-    <name>Макет</name>
+  <templates uuid="f87c954e-eaee-41bb-bf69-572284f96ccc">
+    <name>Чек</name>
     <synonym>
       <key>ru</key>
-      <value>Макет</value>
+      <value>Чек</value>
     </synonym>
   </templates>
 </mdclass:Document>
