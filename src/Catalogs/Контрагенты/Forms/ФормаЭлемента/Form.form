@@ -121,7 +121,7 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
+            <group>Vertical</group>
             <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
