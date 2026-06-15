@@ -14,7 +14,7 @@
           <id>57</id>
           <items xsi:type="form:FormField">
             <name>Наименование</name>
-            <id>7</id>
+            <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -25,7 +25,7 @@
             </dataPath>
             <extendedTooltip>
               <name>НаименованиеРасширеннаяПодсказка</name>
-              <id>9</id>
+              <id>73</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -35,11 +35,11 @@
             </extendedTooltip>
             <contextMenu>
               <name>НаименованиеКонтекстноеМеню</name>
-              <id>8</id>
+              <id>72</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
+            <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -121,7 +121,7 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
+            <group>Vertical</group>
             <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
