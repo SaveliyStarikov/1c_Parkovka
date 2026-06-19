@@ -116,6 +116,7 @@
   <commonPictures>CommonPicture.Максимум</commonPictures>
   <commonPictures>CommonPicture.МестоДляQRКода</commonPictures>
   <commonPictures>CommonPicture.МестоДляШтрихкода</commonPictures>
+  <commonPictures>CommonPicture.МестоСвободно</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисы</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURL</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURLМетоды</commonPictures>

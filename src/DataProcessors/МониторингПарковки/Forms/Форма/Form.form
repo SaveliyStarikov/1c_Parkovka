@@ -266,6 +266,42 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:Decoration">
+    <name>Декорация1</name>
+    <id>332</id>
+    <title>
+      <key>ru</key>
+      <value>Декорация1</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>Декорация1РасширеннаяПодсказка</name>
+      <id>334</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>Декорация1КонтекстноеМеню</name>
+      <id>333</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:PictureDecorationExtInfo">
+      <picture xsi:type="core:PictureRef">
+        <picture>CommonPicture.МестоСвободно</picture>
+      </picture>
+      <fileDragMode>AsFileRef</fileDragMode>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -494,6 +530,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>АдресКартинки</name>
+      <title>
+        <key>ru</key>
+        <value>Адрес картинки</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ВидеоВывод</name>
@@ -502,6 +556,24 @@
       <value>Видео вывод</value>
     </title>
     <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресКартинкиПоУмолчанию</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес картинки по умолчанию</value>
+    </title>
+    <id>9</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

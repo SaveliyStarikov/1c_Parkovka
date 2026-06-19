@@ -239,6 +239,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8160f028-bc7d-4a6d-a372-5539caf21530">
+    <name>ДанныеФайлаКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные файла картинки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="a5b69cfb-4a49-4841-9a19-41e499c01bb3">
     <name>ФормаЭлемента</name>
     <synonym>
