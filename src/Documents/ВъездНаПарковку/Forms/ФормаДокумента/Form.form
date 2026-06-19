@@ -101,6 +101,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ТранспортноеСредство</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТранспортноеСредствоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТранспортноеСредствоРасширеннаяПодсказка</name>
           <id>33</id>

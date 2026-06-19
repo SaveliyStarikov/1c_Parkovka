@@ -7,7 +7,7 @@
   <name>АвтоСозданиеПоРазмерамПарковки</name>
   <synonym>
     <key>ru</key>
-    <value>Авто создание по размерам парковки</value>
+    <value>Добавление мест/рядов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.АвтоСозданиеПоРазмерамПарковки.Form.Форма</defaultForm>
@@ -22,6 +22,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <forms uuid="0e443d46-d37a-4142-a094-bfe0fa0535da">
     <name>Форма</name>

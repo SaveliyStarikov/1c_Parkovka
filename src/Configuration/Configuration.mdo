@@ -574,6 +574,8 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.СвободныеМеста</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
+  <reports>Report.ЦеныУслуг</reports>
+  <reports>Report.ЦеныУслугИстория</reports>
   <dataProcessors>DataProcessor.АвтоСозданиеПоРазмерамПарковки</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.МониторингПарковки</dataProcessors>
@@ -604,6 +606,6 @@
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ВзаимоРасчётСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаимоРасчётыСКлиентами</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗанятостьМест</accumulationRegisters>
 </mdclass:Configuration>

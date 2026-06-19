@@ -12,8 +12,10 @@
   <content>InformationRegister.ЦеныУслуг</content>
   <content>Document.Оплата</content>
   <content>Document.РеализацияТовараИУслуг</content>
-  <content>AccumulationRegister.ВзаимоРасчётСКлиентами</content>
+  <content>AccumulationRegister.ВзаимоРасчётыСКлиентами</content>
   <content>DefinedType.Цена</content>
   <content>Report.Взаиморасчеты</content>
   <content>Report.ВзаиморасчетыПодробно</content>
+  <content>Report.ЦеныУслуг</content>
+  <content>Report.ЦеныУслугИстория</content>
 </mdclass:Subsystem>

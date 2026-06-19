@@ -53,6 +53,7 @@
       <key>ru</key>
       <value>Тип места</value>
     </synonym>
+    <comment>Удалить?</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
