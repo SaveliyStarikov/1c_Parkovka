@@ -17,7 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
-  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="c2273e79-53be-4d9f-bee3-6ff15e963144">
     <name>Цена</name>
@@ -79,7 +79,9 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="5c4d46aa-93f8-4625-a499-37662e11fea0">

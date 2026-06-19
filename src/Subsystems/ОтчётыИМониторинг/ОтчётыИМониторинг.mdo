@@ -9,5 +9,4 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.СвободныеМеста</content>
   <content>DataProcessor.МониторингПарковки</content>
-  <content>1c894cbe-6800-4da2-acc2-ffa23f5d2f7b</content>
 </mdclass:Subsystem>

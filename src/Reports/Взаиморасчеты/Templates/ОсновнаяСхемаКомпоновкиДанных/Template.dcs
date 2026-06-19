@@ -30,7 +30,7 @@
 	ВзаимоРасчётСКлиентамиОстатки.Контрагент КАК Контрагент,
 	ВзаимоРасчётСКлиентамиОстатки.СуммаОстаток КАК СуммаОстаток
 ИЗ
-	РегистрНакопления.ВзаимоРасчётСКлиентами.Остатки КАК ВзаимоРасчётСКлиентамиОстатки</query>
+	РегистрНакопления.ВзаимоРасчётыСКлиентами.Остатки КАК ВзаимоРасчётСКлиентамиОстатки</query>
 	</dataSet>
 	<parameter>
 		<name>Период</name>
@@ -46,6 +46,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -66,6 +67,8 @@
 						<dcsset:field>Организация</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>

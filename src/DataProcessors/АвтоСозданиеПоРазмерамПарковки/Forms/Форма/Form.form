@@ -380,6 +380,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>НаименованиеРяда</name>
@@ -398,6 +399,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>КоличествоМест</name>
@@ -418,6 +420,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>НаименованиеМеста</name>
@@ -436,6 +439,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <formCommands>
     <name>Построить</name>

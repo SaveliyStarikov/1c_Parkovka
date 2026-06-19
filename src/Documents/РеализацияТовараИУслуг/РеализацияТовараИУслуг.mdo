@@ -25,7 +25,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РеализацияТовараИУслуг.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВзаимоРасчётСКлиентами</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаимоРасчётыСКлиентами</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3019160e-1bb5-41ae-936c-c3976ae5e709">
@@ -142,10 +142,7 @@
         <value>Объект</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>CatalogRef.Площадки</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

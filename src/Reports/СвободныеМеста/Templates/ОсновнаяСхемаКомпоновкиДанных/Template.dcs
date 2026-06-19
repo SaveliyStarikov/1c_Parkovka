@@ -6,31 +6,8 @@
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Авто</dataPath>
-			<field>Авто</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаОборот</dataPath>
-			<field>ДатаОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Площадка</dataPath>
-			<field>Площадка</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
 		<dataSource>ИсточникДанных1</dataSource>
-		<query>                                                             ВЫБРАТЬ
-	ВъездВыездНаПарковкиОбороты.Авто КАК Авто,
-	ВъездВыездНаПарковкиОбороты.Территория КАК Территория,
-	ВъездВыездНаПарковкиОбороты.ДатаОборот КАК ДатаОборот
-ИЗ
-	РегистрНакопления.ВъездВыездНаПарковки.Обороты КАК ВъездВыездНаПарковкиОбороты</query>
+		<query/>
 	</dataSet>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -69,7 +46,7 @@
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ДатаОборот</dcsset:field>

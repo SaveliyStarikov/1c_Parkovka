@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.УстановкаЦен.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ad737f61-bd9b-4123-9d6c-dcd772dc6cb1">
