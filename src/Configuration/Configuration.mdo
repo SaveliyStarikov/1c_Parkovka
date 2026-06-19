@@ -566,6 +566,8 @@
   <enums>Enum.ТипыУстройств</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <reports>Report.Взаиморасчеты</reports>
+  <reports>Report.ВзаиморасчетыПодробно</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
@@ -577,7 +579,6 @@
   <dataProcessors>DataProcessor.МониторингПарковки</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
-  <dataProcessors>DataProcessor.Обработка1</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
