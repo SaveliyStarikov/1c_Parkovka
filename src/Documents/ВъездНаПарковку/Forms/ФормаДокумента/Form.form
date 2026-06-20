@@ -179,6 +179,48 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>Ответственный</name>
+        <id>74</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Ответственный</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ОтветственныйРасширеннаяПодсказка</name>
+          <id>76</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОтветственныйКонтекстноеМеню</name>
+          <id>75</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+          <textSize>Normal</textSize>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>НачальныйПериод</name>
         <id>19</id>
         <visible>true</visible>
@@ -186,9 +228,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.НачальныйПериод</segments>
-        </dataPath>
         <extendedTooltip>
           <name>НачальныйПериодРасширеннаяПодсказка</name>
           <id>21</id>
@@ -228,9 +267,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КонечныйПериод</segments>
-        </dataPath>
         <extendedTooltip>
           <name>КонечныйПериодРасширеннаяПодсказка</name>
           <id>37</id>
@@ -568,10 +604,10 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаКомментарий</name>
-    <id>60</id>
+    <id>90</id>
     <items xsi:type="form:FormField">
       <name>Комментарий</name>
-      <id>57</id>
+      <id>92</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -580,9 +616,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Комментарий</segments>
       </dataPath>
+      <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
-        <id>59</id>
+        <id>94</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -592,22 +629,21 @@
       </extendedTooltip>
       <contextMenu>
         <name>КомментарийКонтекстноеМеню</name>
-        <id>58</id>
+        <id>93</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
+      <type>TextDocumentField</type>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:TextDocFieldExtInfo">
+        <width>50</width>
         <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -621,7 +657,7 @@
     </title>
     <extendedTooltip>
       <name>ГруппаКомментарийРасширеннаяПодсказка</name>
-      <id>61</id>
+      <id>91</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -632,15 +668,17 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Auto</group>
+      <behavior>Collapsible</behavior>
       <collapsedRepresentationTitle>
         <key>ru</key>
         <value>Комментарий</value>
       </collapsedRepresentationTitle>
-      <controlRepresentation>ButtonInParentElement</controlRepresentation>
+      <collapsed>true</collapsed>
+      <controlRepresentation>Button</controlRepresentation>
       <representation>Auto</representation>
-      <showAsCard>true</showAsCard>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

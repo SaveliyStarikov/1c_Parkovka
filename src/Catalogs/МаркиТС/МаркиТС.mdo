@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Марки ТС</value>
   </synonym>
+  <comment>Удалить?</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.МаркиТС.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.МаркиТС.StandardAttribute.Code</inputByString>

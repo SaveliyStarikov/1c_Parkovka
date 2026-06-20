@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea3fdcd-df75-4bb2-b4b4-e09912c089fc">
+  <producedTypes>
+    <refType typeId="432453de-7771-4231-9629-0dbd684550f6" valueTypeId="151df57d-ea9d-4b7a-a27a-14ffcab46008"/>
+    <listType typeId="a123424b-e53c-4eff-b282-644aba0e5417" valueTypeId="cd978417-b351-4d4b-8200-2c9243f81e01"/>
+    <managerType typeId="52b12c53-46b1-4799-acc4-3a68ba93bc8c" valueTypeId="26a00f7d-7f5b-40ea-9a8e-f055d9047bb7"/>
+  </producedTypes>
+  <name>ТипыМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы мест</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="45945b78-2787-43bb-90d2-d0e056d630c0">
+    <name>Легковое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bdb595e-fb00-48eb-bc6a-aa4fe9cdd243">
+    <name>Грузовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

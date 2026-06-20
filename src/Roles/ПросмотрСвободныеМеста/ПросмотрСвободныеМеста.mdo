@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a964938f-39c7-482c-b09a-93700ea7654e">
+  <name>ПросмотрСвободныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр свободные места</value>
+  </synonym>
+</mdclass:Role>

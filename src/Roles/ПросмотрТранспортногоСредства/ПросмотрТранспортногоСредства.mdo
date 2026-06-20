@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54f899dc-1ae7-4e85-8440-f9a96fb3e1ed">
+  <name>ПросмотрТранспортногоСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр транспортного средства</value>
+  </synonym>
+</mdclass:Role>

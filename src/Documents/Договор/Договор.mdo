@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Договор</value>
   </synonym>
+  <comment>Убрать из подсистемы</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Договор.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>

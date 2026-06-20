@@ -38,7 +38,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Огранизации.Основная</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -65,9 +68,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>300</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -94,6 +95,7 @@
       <key>ru</key>
       <value>Услуги</value>
     </synonym>
+    <fillChecking>ShowError</fillChecking>
     <attributes uuid="aa918330-7583-4c93-a063-8b5f6b9e2d9c">
       <name>Услуга</name>
       <synonym>
@@ -105,6 +107,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -136,6 +139,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
     </attributes>
     <lineNumberLength>9</lineNumberLength>
