@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dea3e77e-c49e-4890-8df2-4f21b56e21fb">
+  <name>ИзменениеВъездВыездНаПарковку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение въезд/выезд на парковку</value>
+  </synonym>
+</mdclass:Role>

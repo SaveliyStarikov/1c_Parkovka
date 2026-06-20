@@ -137,9 +137,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТранспортноеСредство</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТранспортноеСредствоРасширеннаяПодсказка</name>
             <id>33</id>
@@ -258,9 +255,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Территория</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТерриторияРасширеннаяПодсказка</name>
             <id>17</id>
@@ -300,9 +294,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Площадка</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ПлощадкаРасширеннаяПодсказка</name>
             <id>21</id>
@@ -342,9 +333,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Ряд</segments>
-          </dataPath>
           <extendedTooltip>
             <name>РядРасширеннаяПодсказка</name>
             <id>25</id>
@@ -384,9 +372,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Место</segments>
-          </dataPath>
           <extendedTooltip>
             <name>МестоРасширеннаяПодсказка</name>
             <id>29</id>

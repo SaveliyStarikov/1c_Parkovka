@@ -121,54 +121,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="3585f5ff-f3b6-478a-a351-81fcb0e6cfbb">
-    <name>Марка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Марка</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.МаркиТС</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="7f7b2950-28bc-49ad-851c-b9b4b1cd9cc3">
-    <name>Модель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Модель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.МоделиТС</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9b34558f-6d05-4afe-aae6-5001ff2b4474">
-    <name>Цвет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цвет</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -199,6 +152,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -212,7 +166,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -221,21 +175,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="51a786f4-c828-477c-ad8c-0000630cbc64">
-    <name>Фото</name>
+  <attributes uuid="8160f028-bc7d-4a6d-a372-5539caf21530">
+    <name>ДанныеФайлаКартинки</name>
     <synonym>
       <key>ru</key>
-      <value>Фото</value>
+      <value>Данные файла картинки</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>ValueStorage</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

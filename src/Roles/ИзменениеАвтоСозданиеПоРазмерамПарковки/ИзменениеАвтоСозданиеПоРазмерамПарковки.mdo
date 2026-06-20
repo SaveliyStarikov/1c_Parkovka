@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9058733-cbed-4fc7-9048-3afbb9aa7a5b">
+  <name>ИзменениеАвтоСозданиеПоРазмерамПарковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение авто создание по размерам парковки</value>
+  </synonym>
+</mdclass:Role>

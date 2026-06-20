@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6260bcab-deda-42a9-81e7-b5d02d17e716">
+  <name>ПросмотрМониторингПарковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр мониторинг парковки</value>
+  </synonym>
+</mdclass:Role>

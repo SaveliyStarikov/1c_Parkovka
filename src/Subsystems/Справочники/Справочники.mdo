@@ -3,15 +3,11 @@
   <name>Справочники</name>
   <synonym>
     <key>ru</key>
-    <value>Справочники</value>
+    <value>НСИ</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Огранизации</content>
-  <content>Catalog.ВидыУслуг</content>
-  <content>Catalog.ВидыЦен</content>
-  <content>Catalog.Номенклатура</content>
-  <content>Catalog.МоделиТС</content>
-  <content>Catalog.МаркиТС</content>
+  <content>Catalog.ТранспортныеСредства</content>
 </mdclass:Subsystem>

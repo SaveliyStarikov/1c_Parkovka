@@ -14,7 +14,5 @@
   <content>Catalog.ТранспортныеСредства</content>
   <content>Document.ВъездНаПарковку</content>
   <content>Document.ВыездСПарковки</content>
-  <content>Document.БронированиеМеста</content>
-  <content>Document.Оплата</content>
   <content>DataProcessor.АвтоСозданиеПоРазмерамПарковки</content>
 </mdclass:Subsystem>

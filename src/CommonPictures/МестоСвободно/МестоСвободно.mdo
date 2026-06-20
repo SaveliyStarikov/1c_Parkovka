@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1473efaa-ca28-4899-a564-deca992b7655">
+  <name>МестоСвободно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место свободно</value>
+  </synonym>
+</mdclass:CommonPicture>

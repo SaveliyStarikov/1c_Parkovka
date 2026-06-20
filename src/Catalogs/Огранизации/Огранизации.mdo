@@ -56,7 +56,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -88,24 +91,6 @@
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f820573f-d389-4092-bb1c-1937bbc5eb59">
-    <name>Ответственный</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ответственный</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

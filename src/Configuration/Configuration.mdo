@@ -116,6 +116,7 @@
   <commonPictures>CommonPicture.Максимум</commonPictures>
   <commonPictures>CommonPicture.МестоДляQRКода</commonPictures>
   <commonPictures>CommonPicture.МестоДляШтрихкода</commonPictures>
+  <commonPictures>CommonPicture.МестоСвободно</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисы</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURL</commonPictures>
   <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURLМетоды</commonPictures>
@@ -335,11 +336,38 @@
   <roles>Role.ЗапускМобильногоКлиента</roles>
   <roles>Role.ЗапускТолстогоКлиента</roles>
   <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ИзменениеАвтоСозданиеПоРазмерамПарковки</roles>
+  <roles>Role.ИзменениеВъездВыездНаПарковку</roles>
+  <roles>Role.ИзменениеКонтрагентов</roles>
+  <roles>Role.ИзменениеОплаты</roles>
+  <roles>Role.ИзменениеОрганизация</roles>
+  <roles>Role.ИзменениеПарковки</roles>
+  <roles>Role.ИзменениеРеализацияТоваровИУслуг</roles>
+  <roles>Role.ИзменениеТранспортногоСредства</roles>
+  <roles>Role.ИзменениеУслуги</roles>
+  <roles>Role.ИзменениеУстановкаЦен</roles>
+  <roles>Role.ИзменениеУстройств</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПросмотрВзаиморасчеты</roles>
+  <roles>Role.ПросмотрВзаиморасчетыПодробно</roles>
+  <roles>Role.ПросмотрВъездВыездНаПарковку</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
+  <roles>Role.ПросмотрКонтрагентов</roles>
+  <roles>Role.ПросмотрМониторингПарковки</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
+  <roles>Role.ПросмотрОплаты</roles>
+  <roles>Role.ПросмотрОрганизация</roles>
+  <roles>Role.ПросмотрПарковки</roles>
+  <roles>Role.ПросмотрРеализацияТоваровИУслуг</roles>
+  <roles>Role.ПросмотрСвободныеМеста</roles>
+  <roles>Role.ПросмотрТранспортногоСредства</roles>
+  <roles>Role.ПросмотрУслуги</roles>
+  <roles>Role.ПросмотрУстановкаЦен</roles>
+  <roles>Role.ПросмотрУстройств</roles>
+  <roles>Role.ПросмотрЦеныУслуг</roles>
+  <roles>Role.ПросмотрЦеныУслугИстория</roles>
   <roles>Role.РежимТехническогоСпециалиста</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
@@ -382,6 +410,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
@@ -422,9 +451,11 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
+  <commonAttributes>CommonAttribute.Ответственный</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ДокументыПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>
@@ -561,6 +592,7 @@
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыЗон</enums>
   <enums>Enum.ТипыКонтрагентов</enums>
+  <enums>Enum.ТипыМест</enums>
   <enums>Enum.ТипыПлощадок</enums>
   <enums>Enum.ТипыТС</enums>
   <enums>Enum.ТипыУстройств</enums>
