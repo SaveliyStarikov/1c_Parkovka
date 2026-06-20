@@ -190,11 +190,15 @@
   <commonPictures>CommonPicture.Минимум</commonPictures>
   <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
   <commonPictures>CommonPicture.НетГраницы</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
+  <commonPictures>CommonPicture.Оборудование</commonPictures>
   <commonPictures>CommonPicture.ОбъединитьЯчейки</commonPictures>
+  <commonPictures>CommonPicture.Оплата</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.ОтправитьПолучитьПочту</commonPictures>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.ОтчётыИМониторинг</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
@@ -253,6 +257,7 @@
   <commonPictures>CommonPicture.СохранитьКак</commonPictures>
   <commonPictures>CommonPicture.СохранитьФайлКак</commonPictures>
   <commonPictures>CommonPicture.Среднее</commonPictures>
+  <commonPictures>CommonPicture.СтандартныеПодсистемы</commonPictures>
   <commonPictures>CommonPicture.СтатусЖелтый</commonPictures>
   <commonPictures>CommonPicture.СтатусЗеленый</commonPictures>
   <commonPictures>CommonPicture.СтатусКрасный</commonPictures>
@@ -291,6 +296,7 @@
   <commonPictures>CommonPicture.ТолстаяГраницаСнизу</commonPictures>
   <commonPictures>CommonPicture.УвеличитьШрифт</commonPictures>
   <commonPictures>CommonPicture.УменьшитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.УправлениеПарковкой</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <commonPictures>CommonPicture.ФорматExcel</commonPictures>
