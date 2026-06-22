@@ -375,6 +375,7 @@
   <roles>Role.ПросмотрЦеныУслуг</roles>
   <roles>Role.ПросмотрЦеныУслугИстория</roles>
   <roles>Role.РежимТехническогоСпециалиста</roles>
+  <roles>Role.РольОператор</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
@@ -462,6 +463,7 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ДокументыПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗанятостьМестПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>

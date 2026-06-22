@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="118996bb-e88c-4865-b8fb-d75d6cc920fa">
+  <name>РольОператор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль оператор</value>
+  </synonym>
+</mdclass:Role>

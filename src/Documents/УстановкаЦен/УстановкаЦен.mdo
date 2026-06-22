@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.УстановкаЦен.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ЦеныУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -115,13 +116,10 @@
       <name>Объект</name>
       <synonym>
         <key>ru</key>
-        <value>Объект</value>
+        <value>Площадка</value>
       </synonym>
       <type>
-        <types>CatalogRef.Места</types>
-        <types>CatalogRef.Ряды</types>
         <types>CatalogRef.Площадки</types>
-        <types>CatalogRef.Территории</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

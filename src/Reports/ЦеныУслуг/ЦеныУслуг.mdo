@@ -10,13 +10,4 @@
     <value>Цены услуг</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ЦеныУслуг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="f7cc8bac-75ea-451e-bfee-45e977de8663">
-    <name>ОсновнаяСхемаКомпоновкиДанных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Основная схема компоновки данных</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
 </mdclass:Report>

@@ -34,6 +34,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="f20b8fe7-dbdb-4216-a63b-178f62783ea0">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="3a4b86f1-7591-450e-9967-2e6d13d8f69b">
     <name>Организация</name>
     <synonym>
@@ -108,22 +123,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Места</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="c8352e66-a17a-4905-be23-6bf8e314324a">
-    <name>Услуга</name>
-    <synonym>
-      <key>ru</key>
-      <value>Услуга</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Услуги</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
