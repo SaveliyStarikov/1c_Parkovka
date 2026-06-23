@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Subsystem.Оплата</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.Парковка</name>
 		<right>
 			<name>ThinClient</name>
@@ -11,10 +18,6 @@
 		</right>
 		<right>
 			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MobileClient</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -43,21 +46,6 @@
 		</right>
 		<right>
 			<name>SaveUserData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Output</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.СвободныеМеста</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

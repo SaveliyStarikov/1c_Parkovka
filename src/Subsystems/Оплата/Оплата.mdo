@@ -19,6 +19,5 @@
   <content>DefinedType.Цена</content>
   <content>Report.Взаиморасчеты</content>
   <content>Report.ВзаиморасчетыПодробно</content>
-  <content>Report.ЦеныУслуг</content>
   <content>Report.ЦеныУслугИстория</content>
 </mdclass:Subsystem>

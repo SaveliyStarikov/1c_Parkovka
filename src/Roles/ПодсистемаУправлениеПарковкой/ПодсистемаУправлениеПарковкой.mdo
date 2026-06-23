@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4abaced7-fa0d-4c5e-becc-ba72754338d3">
+  <name>ПодсистемаУправлениеПарковкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема управление парковкой</value>
+  </synonym>
+</mdclass:Role>

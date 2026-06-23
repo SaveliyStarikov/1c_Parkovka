@@ -18,4 +18,5 @@
   <content>Document.ВъездНаПарковку</content>
   <content>Document.ВыездСПарковки</content>
   <content>DataProcessor.АвтоСозданиеПоРазмерамПарковки</content>
+  <content>DataProcessor.МониторингПарковки</content>
 </mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d31c3f9d-665c-4d2d-a71a-d0e0ded84fd3">
+  <name>ПодсистемаОборудованиеИУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема оборудование и устройства</value>
+  </synonym>
+</mdclass:Role>
