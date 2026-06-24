@@ -41,7 +41,6 @@
   </languages>
   <subsystems>Subsystem.ОборудованиеИУстройства</subsystems>
   <subsystems>Subsystem.Оплата</subsystems>
-  <subsystems>Subsystem.ОтчётыИМониторинг</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.УправлениеПарковкой</subsystems>
@@ -333,6 +332,7 @@
   <roles>Role.Администрирование</roles>
   <roles>Role.БазовыеПраваБСП</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
+  <roles>Role.БазовыеПраваПарковка</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
@@ -355,6 +355,10 @@
   <roles>Role.ИзменениеУстройств</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
+  <roles>Role.ПодсистемаОборудованиеИУстройства</roles>
+  <roles>Role.ПодсистемаОплата</roles>
+  <roles>Role.ПодсистемаСправочники</roles>
+  <roles>Role.ПодсистемаУправлениеПарковкой</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрВзаиморасчеты</roles>
   <roles>Role.ПросмотрВзаиморасчетыПодробно</roles>
@@ -375,6 +379,7 @@
   <roles>Role.ПросмотрЦеныУслуг</roles>
   <roles>Role.ПросмотрЦеныУслугИстория</roles>
   <roles>Role.РежимТехническогоСпециалиста</roles>
+  <roles>Role.РольОператор</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
@@ -462,6 +467,7 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ДокументыПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗанятостьМестПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьУдалениеПредопределенныхЭлементов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>
@@ -612,7 +618,6 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.СвободныеМеста</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
-  <reports>Report.ЦеныУслуг</reports>
   <reports>Report.ЦеныУслугИстория</reports>
   <dataProcessors>DataProcessor.АвтоСозданиеПоРазмерамПарковки</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>

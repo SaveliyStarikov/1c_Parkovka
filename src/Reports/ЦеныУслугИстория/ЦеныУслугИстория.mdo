@@ -7,7 +7,7 @@
   <name>ЦеныУслугИстория</name>
   <synonym>
     <key>ru</key>
-    <value>Цены услуг история</value>
+    <value>Цены услуг</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ЦеныУслугИстория.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>

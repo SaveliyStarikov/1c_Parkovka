@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cde0b9d9-b960-4a19-8299-96ec9ae15545">
+  <name>ЗанятостьМестПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость мест при записи</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterRecordSet.ЗанятостьМест</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытия.ПодпискаНаСобытиеПриЗаписи</handler>
+</mdclass:EventSubscription>

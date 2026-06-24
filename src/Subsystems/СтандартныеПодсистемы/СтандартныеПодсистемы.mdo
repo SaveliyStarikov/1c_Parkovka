@@ -3,7 +3,7 @@
   <name>СтандартныеПодсистемы</name>
   <synonym>
     <key>ru</key>
-    <value>Стандартные подсистемы</value>
+    <value>Пользователи</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
